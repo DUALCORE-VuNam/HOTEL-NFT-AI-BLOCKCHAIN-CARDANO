@@ -1,4 +1,4 @@
-# Catalyst HOTEL-NFT AI & Smart Contracts
+# Catalyst HOTEL-NFT AI Engine & AikenSmartContract
 
 This repository contains the prototype implementation of **HOTEL-NFT**, a next-generation hotel booking system that integrates **AI-driven recommendations**, **CIP-68 dynamic NFTs**, and **Aiken SmartContract**.  
 The system automates hotel booking, escrow payments, user identity verification, and reputation updates directly on-chain.
