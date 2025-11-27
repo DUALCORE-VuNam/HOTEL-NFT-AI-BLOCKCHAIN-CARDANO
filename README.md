@@ -50,21 +50,21 @@ Example output:
 }
 
 ## 💎 Smart Contract Highlights
-- **AI-generated booking profile → On-chain NFT minting**
-- **CIP-68 Dynamic NFT** for booking updates (check-in, completion, reputation)
-- **Escrow Contract** for ADA payment & booking guarantee
-- **DID Integration** (Atala PRISM / 3rd-party DID provider)
-- **Reputation Engine (CVC Score)** updated by smart contract
-- **End-to-end on-chain traceability**
+- AI-generated booking profile → On-chain NFT minting
+- CIP-68 Dynamic NFT for booking updates (check-in, completion, reputation)
+- Escrow Contract for ADA payment & booking guarantee
+- DID Integration (Atala PRISM / 3rd-party DID provider)
+- Reputation Engine (CVC Score) updated by smart contract
+- End-to-end on-chain traceability
 
 🛠️ Development Tools
--Haskell / Plutus Tx — Core smart contracts (https://github.com/input-output-hk/haskell.nix)
--Aiken (optional for modular contract logic)(https://github.com/aiken-lang)
--Lucid — Frontend integration & manual testing(https://github.com/spacebudz/lucid) for manual testing
--Cardano CLI — On-chain testing & deployment(https://docs.cardano.org/) 
--Postman / Python — AI workflow debugging(https://www.python.org/downloads/)
--Figma — UI flow & prototype(https://www.figma.com/)
--Next.js — Booking frontend demo(https://nextjs.org/docs)
+-[Haskell] / Plutus Tx — Core smart contracts (https://github.com/input-output-hk/haskell.nix)
+-[Aiken] (optional for modular contract logic)(https://github.com/aiken-lang)
+-[Lucid] — Frontend integration & manual testing(https://github.com/spacebudz/lucid) for manual testing
+-[Cardano CLI] — On-chain testing & deployment(https://docs.cardano.org/) 
+-[Postman / Python] — AI workflow debugging(https://www.python.org/downloads/)
+-[Figma] — UI flow & prototype(https://www.figma.com/)
+-[Next.js] — Booking frontend demo(https://nextjs.org/docs)
 
 
 ```bash
