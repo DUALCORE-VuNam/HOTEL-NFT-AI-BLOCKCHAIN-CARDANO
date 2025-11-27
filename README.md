@@ -1,33 +1,32 @@
----
-## ✅ Repository Name: `HOTEL-NFT-AI-BLOCKCHAIN-CARDANO`
-## ✅ Link Info Proposal: `https://dualcore.gitbook.io/hotel-nft-dualcore-team`
-## ✅ Introduction Video: `https://www.youtube.com/watch?v=YLXq5LgvfTc`
-## ✅ Whitepaper HOTEL-NFT 1.0: `https://dualcore.gitbook.io/hotel-nft-dualcore-team/summary/hotel-nft-whitepaper-1.0`
-# `README.md` Content:
-```markdown
 # Catalyst HOTEL-NFT AI & Smart Contracts
 
 This repository contains the prototype implementation of **HOTEL-NFT**, a next-generation hotel booking system that integrates **AI-driven recommendations**, **CIP-68 dynamic NFTs**, and **Aiken SmartContract**.  
 The system automates hotel booking, escrow payments, user identity verification, and reputation updates directly on-chain.
 
+---
+
 ## 📚 Repository Structure
+```
 /contracts
-BookingEscrow.hs -- Main booking escrow logic
-CIP68Minting.hs -- NFT minting + reference scripts
-NFTRedeemer.hs -- Updating NFT metadata
+    BookingEscrow.hs      -- Main booking escrow logic
+    CIP68Minting.hs       -- NFT minting + reference scripts
+    NFTRedeemer.hs        -- Updating NFT metadata
 
 /ai-engine
-profile_generator.py -- AI Workflow: inputs → JSON profile
-metadata_builder.py -- Converts AI profile → CIP-68 Metadata
+    profile_generator.py  -- AI Workflow: inputs → JSON profile
+    metadata_builder.py   -- Converts AI profile → CIP-68 Metadata
 
 /frontend
-booking-ui/ -- Booking + AI assistant interface
-nft-viewer/ -- View NFT metadata + history
+    booking-ui/           -- Booking + AI assistant interface
+    nft-viewer/           -- View NFT metadata + history
 
 /scripts
-mint_nft.sh -- Local test minting
-update_nft.sh -- Metadata update test
-deploy_testnet.sh -- End-to-end deployment script
+    mint_nft.sh           -- Local test minting
+    update_nft.sh         -- Metadata update test
+    deploy_testnet.sh     -- End-to-end deployment script
+```
+
+---
 
 ## 🧠 AI Engine Features
 - Customer need analysis  
@@ -37,7 +36,7 @@ deploy_testnet.sh -- End-to-end deployment script
 - Reputation estimation (CVC Score)  
 - Outputs standardized **Booking Profile JSON**
 
-Example output:
+### Example output:
 ```json
 {
   "location": "Da Nang",
@@ -48,6 +47,9 @@ Example output:
   "did_hash": "abc123...",
   "cvc_score": 82
 }
+```
+
+---
 
 ## 💎 Smart Contract Highlights
 - AI-generated booking profile → On-chain NFT minting
@@ -56,6 +58,8 @@ Example output:
 - DID Integration
 - Reputation Engine
 - On-chain traceability
+
+---
 
 ## 🛠 Development Tools
 - [Haskell](https://github.com/input-output-hk/haskell.nix)
@@ -66,15 +70,10 @@ Example output:
 - [Figma](https://www.figma.com/)
 - [Next.js](https://nextjs.org/docs)
 
+---
+
+## 📦 Clone Repository
 ```bash
 git clone https://github.com/DUALCORE-VuNam/HOTEL-NFT-AI-BLOCKCHAIN-CARDANO.git
 cd HOTEL-NFT-AI-BLOCKCHAIN-CARDANO
 ```
-
-  
-
-
-
-
-
-
