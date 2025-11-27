@@ -66,10 +66,10 @@ Example output:
 - [Figma](https://www.figma.com/)
 - [Next.js](https://nextjs.org/docs)
 
-
 ```bash
 git clone https://github.com/DUALCORE-VuNam/HOTEL-NFT-AI-BLOCKCHAIN-CARDANO.git
 cd HOTEL-NFT-AI-BLOCKCHAIN-CARDANO
+```
 
   
 
