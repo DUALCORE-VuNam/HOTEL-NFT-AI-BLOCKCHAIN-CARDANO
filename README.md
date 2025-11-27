@@ -39,7 +39,7 @@ The system automates hotel booking, escrow payments, user identity verification,
 ### Example output:
 ```json
 {
-  "location": "Da Nang",
+  "location": "Vung Tau",
   "budget": 120,
   "people": 2,
   "style": "Chill",
